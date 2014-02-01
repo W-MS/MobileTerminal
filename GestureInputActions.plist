@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>左箭头</string>
+	<string>[D</string>
+	<string>右箭头</string>
+	<string>[C</string>
+	<string>上箭头</string>
+	<string>[A</string>
+	<string>下箭头</string>
+	<string>[B</string>
+	<string>Escape退出键</string>
+	<string></string>
+	<string>Backspace退格键</string>
+	<string></string>
+	<string>Tab跳格键</string>
+	<string>	</string>
+	<string>Home页首</string>
+	<string>[1~</string>
+	<string>End页尾</string>
+	<string>[4~</string>
+	<string>Insert插入键</string>
+	<string>[2~</string>
+	<string>Delete删除键</string>
+	<string>[3~</string>
+	<string>上一页</string>
+	<string>[5~</string>
+	<string>下一页</string>
+	<string>[6~</string>
+	<string>Ctrl+C（停止运行）</string>
+	<string></string>
+</array>
+</plist>
