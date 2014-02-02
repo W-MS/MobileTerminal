@@ -1,2 +1,4 @@
 DerivedData
 Build
+*.xcuserstate
+*.xccheckout
