@@ -23,15 +23,13 @@ static NSString* kGestureSettings = @"gestureSettings";
 static NSString* kTerminalSettings = @"terminalSettings";
 
 static NSString* kDefaultMenuItems[][2] = {
-  { @"显示当前目录文件", @"ls\n" },
-  { @"显示当前目录文件及详细信息", @"ls -l\n" },
-  { @"ssh连接", @"ssh " },
-  { @"搜寻", @"locate" },
-  { @"Ping百度", @"ping baidu.com\n" },
-  { @"^C停止运行", @"\x03" },
-  { @"超级用户", @"su\n" },
-  { @"Screen启动", @"screen\n" },
-  { @"Screen进入", @"screen -x\n" },
+  { @"ls", @"ls\n" },
+  { @"ls -l", @"ls -l\n" },
+  { @"ssh", @"ssh " },
+  { @"locate", @"locate" },
+  { @"Ping", @"ping google.com\n" },
+  { @"^C", @"\x03" },
+  { @"su", @"su\n" },
 };
 static int kDefaultMenuItemsCount =
     sizeof(kDefaultMenuItems) / sizeof(NSString*) / 2;

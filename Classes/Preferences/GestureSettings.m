@@ -35,7 +35,7 @@ static NoneGestureAction* noneInstance;
 
 - (NSString*)label
 {
-  return @"<不定义>";
+  return NSLocalizedString(@"undifined",nil);
 }
 
 - (void)performAction

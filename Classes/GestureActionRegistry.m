@@ -82,13 +82,13 @@
   SelectorGestureAction* toggleKeyboard =
       [[SelectorGestureAction alloc] initWithTarget:viewController
                                              action:@selector(toggleKeyboard:)
-                                              label:@"显示／隐藏键盘"];
+                                              label:NSLocalizedString(@"ShowKeyboard",gesture)];
   [gestureSettings addGestureAction:toggleKeyboard];
   [toggleKeyboard release];
   SelectorGestureAction* toggleCopyPaste =
     [[SelectorGestureAction alloc] initWithTarget:viewController
                                            action:@selector(toggleCopyPaste:)
-                                            label:@"启用／停用复制粘贴"];
+                                            label:NSLocalizedString(@"CopyPaste",nil)];
   [gestureSettings addGestureAction:toggleCopyPaste];
   [toggleCopyPaste release];
   

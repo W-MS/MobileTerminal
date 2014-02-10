@@ -22,9 +22,9 @@
 
   sections = [[NSMutableArray alloc] init];
   controllers = [[NSMutableArray alloc] init];
-  [sections addObject:@"快捷动作菜单"];
-  [sections addObject:@"手势"];
-  [sections addObject:@"关于"];
+  [sections addObject:NSLocalizedString(@"shortcutmenu",nil)];
+  [sections addObject:NSLocalizedString(@"gesture",nil)];
+  [sections addObject:NSLocalizedString(@"about",nil)];
   [controllers addObject:menuSettingsController];
   [controllers addObject:gestureSettingsController];
   [controllers addObject:aboutController];

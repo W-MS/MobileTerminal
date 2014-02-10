@@ -180,14 +180,14 @@
     [terminalGroupView startSubProcess];
   } @catch (NSException* e) {
     NSLog(@"Caught %@: %@", [e name], [e reason]);
-    if ([[e name] isEqualToString:@"ForkException"]) {
+    if ([[e name] isEqualToString:NSLocalizedString(@"ForkException",nil)]) {
       // This happens if we fail to fork for some reason.
       // TODO(allen): Provide a helpful hint -- a kernel patch?
       UIAlertView* view =
       [[UIAlertView alloc] initWithTitle:[e name]
                                  message:[e reason]
                                 delegate:self
-                       cancelButtonTitle:@"Exit"
+                       cancelButtonTitle:NSLocalizedString(@"Exit",nil)
                        otherButtonTitles:NULL];
       [view show];
       return;
